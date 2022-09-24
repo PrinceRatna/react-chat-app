@@ -1,0 +1,90 @@
+.chatbot-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #F2F4F7;
+    margin-top: -8px;
+    margin-right: 120px;
+}
+
+.cb-header-logo {
+    width: 10%;
+}
+
+.header-arrow {
+    padding: 0 0.5rem;
+}
+
+.account-button:hover {
+    background: linear-gradient(45deg, #4E45FF 0%, #CB6CE6 100%) !important;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
+    color: white !important;
+}
+
+.account-button {
+    width: 10% !important;
+    border: 1px solid #D0D5DD !important;
+    box-shadow: 0px 1px 2px rgb(16 24 40 / 5%) !important;
+    border-radius: 16px !important;
+    background: white !important;
+    color: #344054 !important;
+    text-transform: none !important;
+    transition: .5 ease-in-out !important;
+    font-weight: bold !important;
+}
+
+@media screen and (max-width:1440px) {
+    .chatbot-header {
+        
+        margin-right: 8%;
+    }
+    
+}
+
+
+@media screen and (max-width:1024px) {
+    .account-button {
+        width: 14% !important;
+    }
+
+    .chatbot-header {
+        
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chatbot-header {
+        
+        margin-right:8%;
+    }
+    .account-button {
+        width: 19% !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .account-button {
+        width: 26% !important;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .chatbot-header {
+        display: none;
+    }
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    background: #FFFFFF !important;
+    border: 1px solid #EAECF0 !important;
+    box-shadow: 0px 12px 16px -4px rgb(16 24 40 / 8%), 0px 4px 6px -2px rgb(16 24 40 / 3%) !important;
+    border-radius: 16px !important;
+    /* left: 1300px !important; */
+    z-index: 1;
+    /* width: 13% !important; */
+    width:200px;
+    margin-top: 5px !important;
+    /* right: 200px; */
+}
